@@ -14,7 +14,7 @@ terraform {
     resource_group_name  = "bdosubvendrg"
     storage_account_name = "bdosubsa123"
     container_name       = "tfstate"
-    key                  = "newbdosubvend.tfstate"
+    key                  = "bdosubvend.tfstate"
   }
 
 
@@ -27,6 +27,6 @@ provider "azurerm" {
     }
   }
   use_oidc = true
-  subscription_id = "ad6f62ba-74ae-4f03-8123-5431c364621d"
+  # subscription_id = "ad6f62ba-74ae-4f03-8123-5431c364621d"
 
 }
