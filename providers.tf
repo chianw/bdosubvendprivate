@@ -14,7 +14,7 @@ terraform {
     resource_group_name  = "bdosubvendrg"
     storage_account_name = "bdosubsa123"
     container_name       = "tfstate"
-    key                  = "bdosubvend.tfstate"
+    key                  = "newbdosubvend.tfstate"
   }
 
 

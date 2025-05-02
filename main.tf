@@ -8,7 +8,7 @@ module "lz_vending" {
   # subscription variables
   # subscription_alias_enabled = true
   subscription_billing_scope = "/providers/Microsoft.Billing/billingAccounts/7c0b9089-fd64-5d61-e847-2065f602106d:ff81f6a8-4163-4aa4-95b7-b3b34853b813_2019-05-31/billingProfiles/YOLD-AHRU-BG7-PGB/invoiceSections/PILE-J4JK-PJA-PGB"
-  subscription_display_name  = "bdotest1sub"
+  subscription_display_name  = "bdotest2sub"
   # subscription_alias_name    = "bdotest1subalias"
   subscription_workload      = "Production"
 
