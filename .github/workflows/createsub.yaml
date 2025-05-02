@@ -48,7 +48,7 @@ jobs:
           ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           ARM_USE_OIDC: true
         run: |
-          terraform plan -var="subscription_id=${{ secrets.AZURE_SUBSCRIPTION_ID }}" -out apply.tfplan
+          terraform plan -out apply.tfplan
     
       - name: Terraform apply
         env:
