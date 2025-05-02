@@ -10,7 +10,7 @@ terraform {
 
   ## below block defines the backend that contains tfstate for this deployment
   backend "azurerm" {
-    subscription_id      = "ad6f62ba-74ae-4f03-8123-5431c364621d" 
+    subscription_id      = "ad6f62ba-74ae-4f03-8123-5431c364621d"
     resource_group_name  = "bdosubvendrg"
     storage_account_name = "bdosubsa123"
     container_name       = "tfstate"
@@ -26,7 +26,7 @@ provider "azurerm" {
       prevent_deletion_if_contains_resources = false
     }
   }
-#   use_oidc = true
-  subscription_id = "ad6f62ba-74ae-4f03-8123-5431c364621d"
+  use_oidc = true
+  # subscription_id = "ad6f62ba-74ae-4f03-8123-5431c364621d"
 
 }
